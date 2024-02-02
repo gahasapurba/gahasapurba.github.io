@@ -45,7 +45,7 @@
 							<div id="corner-tl" class="corner"></div>
 							<div id="corner-tr" class="corner"></div>
 							<h3>What I Do</h3>
-							<p>I am an IT student currently studying at Del Institute of Technology. I have a huge interest in IT field especially in website development.</p>
+							<p>I am an IT enthusiast that currently looking for a job in the IT field. I have a huge interest in IT field especially in website development. I'm using several programming languages such as PHP, JavaScript, and SQL to build websites. I also have a good knowledge using PHP framework such as Laravel. I'm able to work independently or in a team, responsible, and learn new things quickly.</p>
 							<div id="corner-br" class="corner"></div>
 							<div id="corner-bl" class="corner"></div>
 						</div>
@@ -139,8 +139,18 @@
 						<img class="thumbnail" src="images/nusabelajar.png">
 						<div class="post-preview">
 							<h6 class="post-title">NusaBelajar</h6>
-							<p class="post-intro" style="text-align: justify;"> NusaBelajar is an online learning platform that provides various classes that can be learned by everyone. In NusaBelajar, users can also read articles on the blog, discuss with mentors and other users, and participate in various learning events. This website is built using the PHP framework Laravel with various packages, like Laravel Socialite for Sign In and Sign Up integration using google account, Laravel DataTables, and Laravel DOM PDF for printing user completion certificates. The payment method on this website has also been integrated with the Midtrans payment gateway to facilitatethe transaction process in purchasing classes.</p>
+							<p class="post-intro" style="text-align: justify;">NusaBelajar is an online learning platform that provides various classes that can be learned by everyone. In NusaBelajar, users can also read articles on the blog, discuss with mentors and other users, and participate in various learning events. This website is built using the PHP framework Laravel with various packages, like Laravel Socialite for Sign In and Sign Up integration using google account, Laravel DataTables, and Laravel DOM PDF for printing user completion certificates. The payment method on this website has also been integrated with the Midtrans payment gateway to facilitatethe transaction process in purchasing classes.</p>
 							<p><a target="_blank" href="https://github.com/gahasapurba/nusabelajar">Visit Website</a></p>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="images/spkjenispupuk.png">
+						<div class="post-preview">
+							<h6 class="post-title">SPK Jenis Pupuk</h6>
+							<p class="post-intro" style="text-align: justify;">Study of a Decision Support System to Determine the Type of Artificial Fertilizer in Rice Plants Using the Complex Proportional Assessment (COPRAS) Method Implemented in the Form of a Website Using the Laravel Framework.</p>
+							<p><a target="_blank" href="https://github.com/gahasapurba/spk-jenis-pupuk">Visit Website</a></p>
 						</div>
 					</div>
 				</div>
@@ -164,15 +174,18 @@
 			<hr>
 			<br>
 			<p style="text-align: center;"><a href="#top">Back To Top</a></p>
-			<p style="text-align: center;"><span id="views"><b>0</b></span> Views || &copy; 2022</p>
+			<p style="text-align: center;">&copy; <span id="year"></span></p>
 		</div>
 	</section>
 	<script type="text/javascript" src="script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+	<!--
 	<script>
-	    $.getJSON("https://api.countapi.xyz/hit/gahasapurba.com/visits", function(response) {
+	$.getJSON("https://api.countapi.xyz/hit/gahasapurba.com/visits", function(response) {
             $("#views").text(response.value);
         });
 	</script>
+	-->
 </body>
 </html>
